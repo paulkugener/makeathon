@@ -20,6 +20,7 @@ Reaction game played by 4 people. Each player has an LED-strip of 5 Neopixel LED
 * NeoPixel strips
 * Push-buttons
 * Seven-Segment display
+* Buzzer
 * Toggle switch
 * (just ask if you want to try other components)
 
@@ -54,6 +55,7 @@ First you should connect the joystick with the arduino and take a look at the re
 * Arduino
 * Joystick
 * 8x8-LED-Matrix (MAX7219)
+* Buzzer
 * Toggle switch
 * Power supply
 * (just ask if you want to try other components)
