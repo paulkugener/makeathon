@@ -5,11 +5,11 @@ Basic information for the different make@on projects during 'Concours Jonk Fuers
 ## Project overview
 Six different projects were prepared:
 * Halli-Galli (Alex)
-* (Alex)
+* Game2 (Alex)
 * Balance-Disc (Paul)
-* (Paul)
-* (Robert)
-* (Robert)
+* Game4 (Paul)
+* Game5 (Robert)
+* Game6 (Robert)
 
 
 ## Halli-Galli
@@ -23,7 +23,7 @@ Reaction game played by 4 people. Each player has an LED-strip of 5 Neopixel LED
 ### adaptation
 
 
-## Balance-Board
+## Balance-Disc
 ### desciption
 In the traditional game the goal is to balance a ball on a disc and go through an obstacle track. The disk is held by 3-6 people over cords.
 ### adaptation
