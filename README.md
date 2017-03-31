@@ -8,8 +8,8 @@ XXX different projects were prepared:
 * Project2: Robot-Arm-Goalie
 * Project3: Balance-Disc
 * Project4: 8x8-Matrix-Game
-* Project5:
-* Project6:
+* Project5: Kletterpfad / "Climb the path"
+* Project6: Maze
 
 
 ## Project1: Halli-Galli
@@ -63,13 +63,27 @@ First you should connect the joystick with the arduino and take a look at the re
 
 ## Project5: Kletterpfad / "Climb the path"
 ### description
-xxxxxxxx
+The goal of the traditional game is to get the ball from the bottom to the top. So the first step will be to assemble the missing parts, so that the game works in its traditional way. Next, you can extend the game by adding several electronic components. You can check if you add some LEDs to highlight various destinations or you could add a LCD display to keep score. It s up to you how you redesign the game.
 ### components
-* stuff
+* Arduino
+* LEDs
+* Display
+* Proximity sensor or similar
+* Buzzer
+* Toggle switch
+* Power supply
+* (just ask if you want to try other components)
 
 
-## Project6:
+## Project6: Maze
 ### description
-asdasdasdasdads
+This game features mainly the same components as "Climb the path". You start the game by holding it up and by trying to chase the ball through the maze. The main work consists of trying to extend the game with electronic components. For example, you can add two sensors to let the game know, that you started and ended your try. In addition to this, you can add a LCD display to keep track of the amount of time that you needed to achieve the maze. Or you could add a countdown.
 ### components
-balballbalblab
+* Arduino
+* LEDs
+* Display
+* Proximity sensor or similar
+* Buzzer
+* Toggle switch
+* Power supply
+* (just ask if you want to try other components)
