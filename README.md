@@ -3,13 +3,14 @@ Basic information for the different make@on projects during 'Concours Jonk Fuers
 
 
 ## Projects overview
-XXX different projects were prepared:
+7 different projects were prepared:
 * Project1: Halli-Galli
 * Project2: Robot-Arm-Goalie
 * Project3: Balance-Disc
 * Project4: 8x8-Matrix-Game
 * Project5: Kletterpfad / "Climb the path"
 * Project6: Maze
+* Project7: React-Game
 
 
 ## Project1: Halli-Galli
@@ -78,6 +79,20 @@ The goal of the traditional game is to get the ball from the bottom to the top. 
 ## Project6: Maze
 ### description
 This game features mainly the same components as "Climb the path". You start the game by holding it up and by trying to chase the ball through the maze. The main work consists of trying to extend the game with electronic components. For example, you can add two sensors to let the game know, that you started and ended your try. In addition to this, you can add a LCD display to keep track of the amount of time that you needed to achieve the maze. Or you could add a countdown.
+### components
+* Arduino
+* LEDs
+* Display
+* Proximity sensor or similar
+* Buzzer
+* Toggle switch
+* Power supply
+* (just ask if you want to try other components)
+
+
+## Project7: React-Game
+### description
+This game is an adaptation of "Musical Chairs" or "Going to Jerusalem". In this case,  there are no people moving around chairs, but there are LEDs moving around on the prepared box. With the various components, you can create your own version of this game. Maybe you are also able to add some sound to the game.
 ### components
 * Arduino
 * LEDs
