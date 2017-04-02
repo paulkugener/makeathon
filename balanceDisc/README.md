@@ -1,7 +1,17 @@
-![alt text](https://github.com/paulkugener/makeathon/blob/master/balanceDisc/test_mpu6050-gyro-simple.png "Connect MPU6050")
+## Connect MPU6050
 
-###Connect the lcd-backpack:
-* GND -> GND
-* VCC -> 5V
-* SDA -> SDA
-* SCL -> SDA
+| MPU        | Arduino           |
+| ------------- |-------------:|
+| VCC      | 3.3V |
+| GND      | GND     |
+| SCL | A5      |
+| SDA | A4      |
+
+## Connect the lcd-backpack:
+
+| MPU        | Arduino           |
+| ------------- |-------------:|
+| GND      | GND |
+| VCC      | 5V     |
+| SDA | SDA      |
+| SCL | SCL     
