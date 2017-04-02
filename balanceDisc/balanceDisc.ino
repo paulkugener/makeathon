@@ -14,28 +14,9 @@ int pitch, roll;
 
 // SETUP
 void setup() {
-  //Serial.begin(9600);
   init_MPU(); // Init MPU6050
-
-  lcd.begin(16,2); // Init 16x2 LCD-Display
-  // ------- Quick 3 blinks of backlight  -------------
-    for(int i = 0; i < 3; i++)
-    {
-      lcd.backlight();
-      delay(250);
-      lcd.noBacklight();
-      delay(250);
-    }
-    lcd.backlight(); // finish with backlight on
-
-  //-------- Write characters on the display ------------------
-  // NOTE: Cursor Position: (CHAR, LINE) start at 0
-    lcd.setCursor(0,0); //Start at character 0 on line 0
-    lcd.print("  Balance-Disc");
-    delay(1000);
-    lcd.setCursor(0,1);
-    lcd.print("   Have fun :)");
-    delay(5000);
+  init_LCD(); // Init display
+  delay(5000);
 }
 
 
@@ -60,6 +41,19 @@ void init_MPU() {
   Wire.write(0);     // set to zero (wakes up the MPU-6050)
   Wire.endTransmission(true);
   delay(1000);
+}
+
+void init_LCD() {
+  lcd.begin(16,2); // Init 16x2 LCD-Display
+  lcd.backlight(); // backlight on
+
+//-------- Write characters on the display ------------------
+// NOTE: Cursor Position: (CHAR, LINE) start at 0
+  lcd.setCursor(0,0); //Start at character 0 on line 0
+  lcd.print("  Balance-Disc");
+  delay(1000);
+  lcd.setCursor(0,1);
+  lcd.print("   Have fun :)");
 }
 
 // function to calculate the angles for pitch and roll
@@ -89,7 +83,7 @@ void FunctionsMPU() {
 
 // function to organize the output to the LCD-Display
 void writeOutput(int xAng, int yAng) {
-  String line1 = "x = " + xAng + ", y = " + yAng;
+  String line1 = "x = " + String(xAng) + ", y = " + String(yAng);
 
   lcd.clear();
   lcd.setCursor(0,0); //Start at character 0 on line 0
