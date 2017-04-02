@@ -10,7 +10,7 @@
 
 ## Connect the lcd-backpack:
 
-| MPU        | Arduino           |
+| LCD-Backpack        | Arduino           |
 | ------------- |-------------:|
 | GND      | GND |
 | VCC      | 5V     |
