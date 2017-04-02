@@ -1,3 +1,4 @@
+
 ## Connect MPU6050
 
 | MPU        | Arduino           |
@@ -15,3 +16,5 @@
 | VCC      | 5V     |
 | SDA | SDA      |
 | SCL | SCL     
+
+### To use the lcd-display, you will need to replace your libaries/LiquidCrystal folder with the [latest libary](https://bitbucket.org/fmalpartida/new-liquidcrystal/downloads/).
